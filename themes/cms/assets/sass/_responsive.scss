@@ -1,0 +1,1676 @@
+//---------------- facilitySlider -------------
+@media(max-width: 767px) {
+  .facilitySlider {
+    padding-top: 45px;
+    padding-bottom: 65px;
+    &__slide-wrap {
+      .FacilitySliderNext, .FacilitySliderPrev {
+        display: none;
+      }
+      .slick-dots {
+        li {
+          button{
+            &:before{
+              font-size: 11px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//-------------- facilitySlider end -------------
+
+//-------------- featuredSliser -----------------
+@media(max-width: 767px) {
+  .featuredSliser {
+    padding-top: 45px;
+    padding-bottom: 65px;
+    .FeatureSliderNext, .FeatureSliderPrev {
+      display: none;
+    }
+  }
+}
+
+//-------------- featuredSliser End -------------
+
+
+//-------------- product Category -----------------
+@media(max-width: 767px) {
+  .productCategory {
+    padding-top: 45px;
+    padding-bottom: 65px;
+
+    .row-flex{
+      display: block;
+    }
+    .facilitySliderNav {
+      display: none;
+    }
+
+    .chooseColor__left {
+      margin-bottom: 30px;
+    }
+    .slick-dots {
+      li {
+        button{
+          &:before{
+            font-size: 11px;
+          }
+        }
+      }
+    }
+    .BenefitNd__item-wrap {
+      .slick-list{
+        padding-right: 0;
+      }
+    }
+  }
+}
+
+//-------------- product Category End -------------
+
+
+//-------------- MenuItems -----------------
+@media(max-width: 767px) {
+  .menuItems {
+    ul{
+      padding: 120px 30px 0 30px;
+    }
+    &.menuOpen{
+      width: 255px;
+      ul{
+        padding: 120px 30px 0 30px;
+      }
+      .sub_menu_mobile {
+        li {
+          a{
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    &__close{
+      top: 7px;
+      right: 15px;
+    }
+  }
+}
+
+//-------------- Menu Items End -------------
+
+
+
+
+//-----------big screen media
+@media (min-width: 1400px) {
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+//-----------big screen media end
+
+
+//default
+@media(max-width: 767px) {
+  .p75, .p90, .p60, .p95 {
+    padding: 45px 0 !important;
+  }
+  .Title {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .innerBanner.asShortBanner {
+    height: 70px !important;
+    padding-top: 0 !important;
+  }
+
+}
+
+
+@media(max-width: 767px) {
+  .home-slider {
+    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
+    overflow: hidden;
+  }
+
+}
+
+
+//-----------after banner about
+@media (max-width: 767px) {
+  .AfterBannerAbout {
+    h2 {
+      margin: 0 0 13px 0;
+      line-height: 23px;
+    }
+
+    p {
+      margin-bottom: 27px;
+    }
+  }
+
+}
+
+//-----------after banner about
+
+
+//-----------features producct
+@media(min-width: 1500px) {
+  .FeaturesProject.V2 .FeaturesProject__SliderWrap__item {
+    height: 500px;
+  }
+
+
+}
+
+
+@media (max-width: 991px) {
+  .FeaturesProject {
+    .slick-dots {
+      bottom: -30px;
+
+      li button:before {
+        font-size: 12px;
+      }
+    }
+
+    &.V2{
+      .FeaturesProject.V2 .FeaturesProject__SliderWrap__item{
+        height: 500px;
+      }
+    }
+
+  }
+}
+
+
+@media (max-width: 767px) {
+  .FeaturesProject {
+    height: 295px;
+    overflow: hidden;
+
+    &.V2 {
+      height: auto;
+    }
+  }
+  .slick-dotted.slick-slider {
+    margin-bottom: 0px;
+  }
+  .FeaturesProject__SliderWrap {
+    margin-top: 40px;
+  }
+  .FeaturesProject__SliderWrap__item {
+    img {
+      height: 70px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 13px;
+      padding: 0 5px;
+
+    }
+  }
+  .FeaturesProject .slick-dots {
+    bottom: -50px;
+  }
+  .chooseColor__right__image {
+    margin-bottom: 8px !important;
+  }
+  .FeaturesProject.V2 {
+    padding-bottom: 84px !important;
+  }
+
+  .FeaturesProject.V2 .FeaturesProject__SliderWrap__item {
+    height: 450px;
+
+    img {
+      height: 144px;
+    }
+
+    p, h4 {
+      opacity: 1;
+    }
+
+    h4 {
+      margin: 45px 0;
+    }
+  }
+
+  .FeaturesProject.V2 .FeaturesProject__SliderWrap {
+    margin-top: 25px;
+  }
+
+
+}
+
+@media (max-width: 380px) {
+  .FeaturesProject {
+    .slick-dots {
+      bottom: -30px;
+    }
+  }
+}
+
+
+//-----------feature product
+
+
+//-----------chose color
+@media (min-width: 1400px) {
+  .chooseColor__left {
+    padding-left: 105px;
+  }
+}
+
+@media (max-width: 767px) {
+  .chooseColor {
+    padding: 45px 0;
+    max-height: unset;
+
+    .row {
+      display: block;
+    }
+
+    &__left {
+      display: block;
+      padding: 0px 15px;
+
+      h3 {
+        width: 100%;
+        margin-bottom: 10px;
+        line-height: 25px;
+        margin-top: 0;
+        font-size: 20px;
+      }
+
+      .epBtn {
+        margin-top: 12px;
+      }
+    }
+
+    &__right {
+      margin-top: 20px;
+
+      .slick-dots {
+        bottom: 25px;
+      }
+    }
+  }
+}
+
+//-----------chose color
+
+
+//-----------explore you need
+@media (max-width: 767px) {
+  .ExploreYouNeed__left__btn {
+    display: block;
+  }
+  .ExploreYouNeed {
+    padding: 45px 0;
+  }
+  .ExploreYouNeed__left {
+    padding-right: 0;
+    margin-top: 10px;
+  }
+  .ExploreYouNeed__right__text h3 {
+    line-height: 25px;
+    margin-top: 0;
+    font-size: 20px;
+    width: 100%;
+  }
+  .ExploreYouNeed {
+    .row {
+      display: block;
+    }
+  }
+  .ExploreYouNeed__right__product {
+    display: none;
+  }
+  .ExploreYouNeed__right {
+    padding-right: 15px;
+  }
+  .ExploreYouNeed__left__overlay {
+    padding: 0 20px;
+
+    p {
+      font-size: 14px;
+
+      img {
+        bottom: 4px;
+        height: 11px;
+        margin-left: 6px !important;
+      }
+    }
+  }
+  .ExploreYouNeed__left ul li a {
+    &.goTab {
+      display: none;
+    }
+
+    &.goTo {
+      display: block;
+    }
+  }
+}
+
+//-----------explore you need end
+
+
+//-----------------benefits
+@media(max-width: 768px) {
+  .benefits {
+
+    .Title {
+      text-align: center;
+    }
+
+    &__content {
+      margin-top: 25px;
+      margin-bottom: 45px !important;
+      display: block;
+    }
+
+    .slick-dots {
+      bottom: -50px;
+
+      li button:before {
+        font-size: 11px;
+      }
+    }
+  }
+  .benefits__content__single {
+    padding: 40px 15px 40px 15px;
+  }
+  .benefits__content__single p{
+    height: auto;
+  }
+
+
+}
+
+//-----------------benefits end
+
+
+//-------------easy painting
+@media(max-width: 767px) {
+  .easyPainting {
+    .row {
+      display: block;
+    }
+
+    .easyPainting__left {
+      padding: 0 15px !important;
+    }
+
+    .Title {
+      margin-bottom: 10px;
+    }
+
+    .easyPainting__right {
+      margin-top: 20px;
+      margin-bottom: 10px;
+
+      &__image {
+        display: block;
+      }
+    }
+
+  }
+}
+
+
+//-------------easy painting
+
+
+//--------client slider
+@media(max-width: 767px) {
+  .ClientSlider  {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    .ClientSliderInit{
+      padding: 0;
+    }
+  }
+  .ClientSlider__item img {
+    max-height: 95px;
+  }
+  .ClientSlider {
+    .slick-prev:before,
+    .slick-next:before {
+      font-size: 20px;
+    }
+
+    .slick-prev {
+      left: 0px;
+      transition: color 0.5ms;
+      z-index: 1;
+
+      &:before {
+        color: #FFB300;
+      }
+    }
+
+    .slick-next {
+      right: 0px;
+      z-index: 1;
+
+      &:before {
+        color: #FFB300;
+      }
+    }
+    .ClientSliderPrev{
+      left: 15px;
+    }
+    .ClientSliderNext{
+      right: 15px;
+    }
+  }
+}
+
+
+//--------client slider
+
+
+//-------------contact
+@media(max-width: 767px) {
+  .homeContact__right {
+    height: auto;
+
+    &__top {
+      padding: 45px 15px;
+    }
+  }
+  .homeContact__right__top {
+    h3 {
+      margin-bottom: 15px;
+      font-size: 23px;
+    }
+
+    p {
+      margin: 0;
+      line-height: 22px;
+    }
+  }
+  .homeContact__right__bottom {
+    padding: 23px 15px;
+    margin-bottom: 15px;
+  }
+  .homeContact #map {
+    height: 50vh;
+  }
+
+}
+
+//-------------contact
+
+
+//-------footer
+@media(max-width: 767px) {
+  .Footer {
+    padding-bottom: 0 !important;
+    padding-top: 40px !important;
+
+    &__top {
+      display: flex;
+      flex-wrap: wrap;
+      padding-bottom: 0;
+
+      .col-md-3 {
+        margin-bottom: 25px;
+      }
+
+      h4 {
+        margin-bottom: 12px;
+      }
+
+      ul li a {
+        margin-bottom: 11px;
+      }
+    }
+
+    &__address {
+      margin-top: 30px;
+      padding-bottom: 13px;
+
+      .col-md-3:nth-child(n+2) {
+        display: none;
+      }
+    }
+
+    &__bottom {
+      margin-top: 10px;
+
+      ul {
+        text-align: center;
+        border-bottom: 1px solid #484848;
+        padding-bottom: 6px;
+      }
+
+      h3 {
+        text-align: left;
+        margin-top: 30px;
+        margin-bottom: 16px;
+      }
+
+      .find a {
+        margin-top: 20px;
+      }
+    }
+
+    &__copyright {
+      padding: 20px 0;
+      border-top: 1px solid #484848;
+      text-align: center;
+    }
+  }
+
+
+}
+
+//-------footer
+
+
+//==================about us page start
+
+//------menu logo
+@media (max-width: 767px) {
+  .MenuBar .logo:after {
+    height: calc(100% + 32px);
+  }
+  .MenuBar {
+    padding-top: 8px;
+  }
+  .logo img {
+    height: 40px;
+  }
+  .menuHamburger {
+    top: 7px !important;
+  }
+  .MenuItems {
+    width: 100%;
+    height: 100%;
+
+    &__list {
+      padding: 35px 10px 20px 30px;
+
+      .menu-title {
+        font-size: 14px;
+        margin-bottom: 5px;
+      }
+    }
+  }
+  .MenuItems__list__left ul.MainItem li a {
+    font-size: 16px;
+    margin-bottom: 6px;
+  }
+
+  .MenuItems__list__left ul.SubItem li a,
+  .MenuItems__list__right ul.SubItem li a {
+    font-size: 13px;
+    margin-bottom: 4px;
+    line-height: 15px;
+  }
+  .MenuItems__list .menu-title:after {
+    width: 16px;
+    left: -21px
+  }
+  .MenuItems__list ul li a:after {
+    width: 21px;
+    left: -26px;
+  }
+  .MenuItems #CloseMenu {
+    right: 13px;
+    height: 17px;
+    top: 11px;
+  }
+
+  .menuHamburger.Fixed {
+    right: 15px;
+    top: 20px;
+  }
+  .MenuBar .logo {
+    margin-left: 20px;
+  }
+  .MenuBar .menuHamburger.Fixed {
+    right: 15px;
+    padding: 10px 6px 10px 6px;
+  }
+
+}
+
+//------menu logo
+
+
+//---------inner banner
+@media (max-width: 767px) {
+  .innerBanner {
+    padding-top: 53.16% !important;
+    height: unset !important;
+
+    h1 {
+      font-size: 22px;
+      bottom: 23px;
+    }
+  }
+}
+
+//---------inner banner
+
+//-----------plain text
+@media(max-width: 767px) {
+  .plainText {
+    h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 25px;
+      margin-bottom: 10px;
+    }
+
+    a {
+      margin-top: 5px;
+    }
+  }
+}
+
+//-----------plain text
+
+
+//-------------mission vision
+@media(max-width: 767px) {
+  .MissionVision__single:first-child .MissionVision__single__right {
+    padding-left: 15px;
+  }
+  .MissionVision__single__right h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  .MissionVision__single__right p {
+    font-size: 14px;
+    color: #404747;
+    line-height: 25px;
+    margin-bottom: 0;
+  }
+  .MissionVision__single:nth-child(2) .MissionVision__single__right {
+    padding-right: 15px;
+  }
+}
+
+//-------------mission vision end
+
+
+//----------------plain text
+@media(max-width: 767px) {
+  .sectionDivider {
+    height: 130px;
+
+    h1 {
+      font-size: 20px;
+    }
+  }
+}
+
+//----------------plain text
+
+//-------------team
+@media (max-width: 767px) {
+  .MissionVision.asTeamMember .MissionVision__single__right h4 {
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+  .MissionVision__single__right a {
+    margin-top: 15px;
+  }
+  .MissionVision.asTeamMember .MissionVision__single:nth-child(even) .MissionVision__single__right {
+    padding-left: 15px;
+  }
+  .MissionVision.asTeamMember .MissionVision__single:nth-child(odd) .MissionVision__single__right {
+    padding-right: 15px;
+  }
+}
+
+//-------------team
+
+//-------------board of director
+@media(max-width: 767px) {
+  .boardOfDirector {
+    padding-bottom: 30px !important;
+
+    &__lists {
+      margin-top: 20px;
+      flex-wrap: wrap;
+      justify-content: unset;
+
+      .col-md-3 {
+        &:nth-child(odd) {
+          padding-right: 8px;
+        }
+
+        &:nth-child(even) {
+          padding-left: 8px;
+        }
+      }
+
+      &__single {
+        margin-bottom: 15px;
+
+        &__text {
+          bottom: 20px;
+          padding: 5px 0;
+
+          h4 {
+            font-size: 14px;
+          }
+
+          p {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+//-------------board of director end
+
+
+//==================about us page end
+
+//=================project listing page start
+@media(max-width: 767px) {
+  .Products__short .col-md-4 {
+    margin-bottom: 10px;
+  }
+
+  .Products__lists__single__img ul,
+  .Products__lists__single__content p {
+    display: none;
+  }
+
+  .Products__lists {
+    margin-top: 20px;
+
+    &__single {
+      margin-bottom: 15px;
+
+      &:nth-child(odd) {
+        padding-right: 7.5px;
+      }
+
+      &:nth-child(even) {
+        padding-left: 7.5px;
+      }
+
+      &__content {
+        text-align: center;
+        padding-top: 15px;
+        border-bottom: 1px solid #CECECE;
+        height: 45px;
+
+        h4 {
+          font-size: 12px;
+          margin-bottom: 6px;
+          height: 16px;
+          padding: 0 5px;
+          line-height: 16px;
+        }
+      }
+    }
+  }
+  .Products__short .nice-select {
+    height: 41px;
+    line-height: 41px;
+    font-size: 14px;
+  }
+
+}
+
+//=================project listing page end
+
+
+//----------key plan section start
+@media(max-width: 768px) {
+  .keyPlan {
+    &__content ul li {
+      height: 160px;
+      width: 25%;
+    }
+  }
+  .keyPlan__content__btn {
+    float: none;
+    text-align: center;
+
+  }
+
+}
+
+@media(max-width: 550px) {
+  .keyPlan {
+    .section-title {
+      margin-bottom: 40px;
+    }
+
+    &__content {
+      padding: 20px 8px;
+      margin-left: -15px;
+      margin-right: -15px;
+
+      ul li {
+        padding: 8px 8px;
+        height: 160px;
+        width: 33.33%;
+      }
+    }
+  }
+}
+
+@media(max-width: 400px) {
+  .keyPlan {
+    &__content {
+      padding: 20px 10px;
+      margin-left: -15px;
+      margin-right: -15px;
+
+      ul li {
+        height: 130px;
+        padding: 5px 5px;
+      }
+    }
+  }
+}
+
+//----------key plan section end
+
+
+//project desc
+@media(max-width: 767px) {
+  .desTitle {
+    height: 38px;
+  }
+  .ProdectDes .desTitle {
+    font-size: 20px;
+    height: 38px;
+  }
+  .ProdectDes__left__img, .ProdectDes__right__lists {
+    margin-top: 26px;
+  }
+  .ProdectDes__right {
+    padding-left: 15px;
+    margin-top: 15px;
+  }
+  .ProdectDes__right__lists h3 {
+    margin-top: 10px;
+    position: relative;
+    font-size: 20px;
+    bottom: 0;
+  }
+  .ProdectDes__right__lists ul {
+    overflow: hidden;
+    padding-left: 30px;
+
+    li:after {
+      left: -29px;
+    }
+  }
+  .ProdectDes__detail {
+    margin-top: 20px;
+  }
+
+  .ProdectDes__detail__left {
+    margin-top: 26px;
+
+    &__single {
+      padding: 0px 0px;
+      margin-bottom: 30px;
+    }
+  }
+  .ProdectDes__detail__left .epLink {
+    margin-left: 33px;
+  }
+  .ProdectDes__detail__right {
+    margin-top: 30px;
+  }
+}
+
+
+//-------dealer locator
+@media(max-width: 767px) {
+  .asDealerLocator__items {
+    margin-top: 25px;
+
+    .col-md-4 {
+      padding: 0 15px !important;
+    }
+
+    &__single {
+      padding: 35px 6px 35px 6px;
+    }
+  }
+
+}
+
+@media(max-width: 400px) {
+  .asDealerLocator__items__single {
+    h4 {
+      font-size: 15px;
+      margin-bottom: 5px;
+    }
+
+    p {
+      font-size: 13px;
+    }
+  }
+}
+
+//-------dealer locator
+
+
+//-----as deport address
+@media(max-width: 767px) {
+  .asDepotAddress {
+    .asDealerLocator__items__single {
+      padding: 25px 12px !important;
+    }
+  }
+}
+
+
+//-----as deport address
+
+
+//---------contact
+@media (max-width: 767px) {
+  .Contact {
+    .row {
+      display: block;
+    }
+
+    &__left {
+      margin-bottom: 30px;
+    }
+
+    #ContactMap {
+      min-height: unset;
+      height: 40vh;
+    }
+
+  }
+  .ContactForm {
+    h2 {
+      margin: 0 0 20px 0;
+    }
+
+    .form-group {
+      margin: 0;
+    }
+
+    .col-md-6 {
+      padding: 0 !important;
+      margin-bottom: 15px;
+    }
+
+    .epBtn {
+      margin-top: 10px;
+      width: 100%;
+    }
+  }
+}
+
+//---------contact
+
+//AfterBannerMenuWrap
+@media (max-width: 767px) {
+  .AfterBannerMenuWrap {
+    display: none;
+  }
+}
+
+
+//------Saif
+
+//--------mastercoat start
+@media (max-width: 768px) {
+  .asMastercoat {
+    .container {
+      .row {
+        .chooseColor__left {
+          h3 {
+            margin: 0 10px 0 40px;
+          }
+
+          p {
+            margin: 30px 10px 0 40px;
+          }
+
+          a {
+            margin-left: 40px;
+          }
+        }
+      }
+    }
+  }
+
+
+  .asMastercoat_Features {
+    background: #F2F4F7;
+    max-height: fit-content !important;
+
+    .col-md-8 {
+      p, h3 {
+        margin-left: 40px;
+      }
+    }
+
+  }
+  .asSafeGurdBenefits {
+    .asSafeGurdContent {
+      div {
+        a {
+          margin-top: 30px;
+        }
+      }
+    }
+
+    .slick-dots {
+      bottom: -61px;
+    }
+  }
+  .asMastercoatBenefits {
+    .benefits__content {
+      margin-top: 40px;
+
+      .BenifitsSlider {
+        .col-md-3:first-child {
+          margin-left: 0;
+        }
+      }
+    }
+
+    .slick-dots {
+      bottom: -72px;
+    }
+
+  }
+
+  .aslabratory {
+    .MissionVision__single__right {
+      h3, p {
+        padding-left: 40px;
+      }
+
+    }
+  }
+
+  .asGuarante {
+    .Title {
+      text-align: left;
+    }
+  }
+
+  .asMastercoatApplication {
+    .ProdectDes__detail__left {
+      margin-top: 0;
+    }
+
+    .ProdectDes__detail__right {
+      margin-top: 0;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .asMastercoat {
+    max-height: fit-content;
+
+    .container {
+      .row {
+        .chooseColor__right {
+          margin-top: 0;
+        }
+
+        .chooseColor__left {
+          margin: 30px 15px 0 15px;
+
+          h3 {
+            margin: 0 0 10px 0;
+            font-size: 20px;
+          }
+
+          p {
+            margin: 0;
+          }
+
+          a {
+            margin: 20px 0 0 0;
+          }
+        }
+      }
+    }
+  }
+
+  .asMastercoat_Features {
+    background: #F2F4F7;
+    max-height: fit-content !important;
+    padding-bottom: 0 !important;
+
+    .container {
+      .col-md-12 {
+        padding: 0 0 5px 0;
+      }
+    }
+
+    .col-md-8 {
+      margin: 30px 0;
+
+      h3 {
+        margin: 0 15px 10px 15px;
+      }
+
+      p {
+        margin: 0 15px;
+      }
+    }
+
+    .slick-dots {
+      bottom: -40px;
+    }
+
+  }
+  .asSafeGurdBenefits {
+    padding-top: 0 !important;
+
+    .asSafeGurdContent {
+      margin-top: 10px;
+    }
+
+    .slick-dots {
+      bottom: -40px;
+    }
+  }
+
+  .asGuarante {
+    max-height: max-content;
+
+    h3 {
+      margin-bottom: 20px !important;
+    }
+
+    .ProdectDes__detail__left__single {
+      margin: 10px 15px 0 15px;
+    }
+  }
+
+  .aslabratory {
+    .MissionVision__single__right {
+      padding-top: 30px;
+
+      h3, p {
+        padding-left: 0px;
+      }
+
+      h3 {
+        margin-bottom: 20px;
+        margin-top: 0;
+      }
+
+    }
+  }
+
+  .asMastercoatBenefits {
+    .benefits__content {
+      margin-top: 20px;
+    }
+
+    .slick-dots {
+      bottom: -55px;
+    }
+  }
+
+  .asUnderCoatsMasterCoats {
+    .desTitle {
+      font-size: 20px !important;
+      margin-bottom: 20px !important;
+      height: 40px;
+    }
+  }
+
+  .asMastercoatApplication {
+    .desTitle {
+      font-size: 20px !important;
+      margin-bottom: 20px !important;
+      height: 40px;
+    }
+  }
+
+  .asMastercoatShadeCard {
+    .desTitle {
+      font-size: 20px !important;
+      margin-bottom: 20px !important;
+      height: 40px;
+    }
+  }
+
+  .asGallery {
+    .Title {
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+
+    .Products__lists {
+      margin-top: 0;
+    }
+  }
+}
+
+//--------mastercoat end
+
+
+//----------super delux start
+@media(max-width: 767px) {
+  .asSilkUnderCoats {
+    .desTitle {
+      font-size: 20px !important;
+      margin-bottom: 20px !important;
+      height: 40px;
+    }
+  }
+}
+
+//----------super delux end
+
+//---------super Strength page
+@media (max-width: 768px) {
+  .asFeatures {
+    .ProdectDes__detail__left__single {
+      h3 {
+        margin: 0 10px 0 40px;
+      }
+
+      ul {
+        margin: 30px 10px 0 40px;
+      }
+
+      a {
+        margin-left: 40px;
+      }
+    }
+  }
+
+  .asTechnicalSupport {
+    .chooseColor__left {
+      padding-left: 40px !important;
+    }
+  }
+}
+
+@media(max-width: 767px) {
+  .asFeatures {
+    .chooseColor__right {
+      margin-top: 0;
+    }
+
+    .ProdectDes__detail__left__single {
+      margin: 20px 15px 0 15px;
+
+      h3 {
+        margin: 0px 0px 20px 0px;
+        font-size: 20px;
+      }
+
+      ul {
+        margin: 0;
+      }
+
+      a {
+        margin: 20px 0 0 0;
+      }
+    }
+  }
+
+  .asTechnicalSupport {
+    .chooseColor__right {
+      margin-top: 0;
+    }
+
+    .chooseColor__left {
+      padding-left: 0 !important;
+      margin: 20px 15px;
+
+      h3 {
+        margin-top: 0;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .pack_size {
+    h3 {
+      margin-bottom: 20px !important;
+    }
+
+    .packText {
+      margin: 15px 0 15px 0 !important;
+
+      h5 {
+        margin: 0 !important;
+      }
+    }
+
+    .col-md-3 {
+      margin-bottom: 15px;
+      width: 50%;
+      float: left;
+
+      &:nth-child(even) {
+        padding-left: 7.5px;
+      }
+
+      &:nth-child(odd) {
+        padding-right: 7.5px;
+      }
+    }
+  }
+
+  .asSilkFeatures {
+    .slick-dots {
+      bottom: -50px;
+    }
+  }
+  .asUsageArea {
+    h3 {
+      margin-top: 0;
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .col-md-4 {
+      margin-bottom: 15px;
+    }
+
+    .imagegallery {
+      background-repeat: no-repeat !important;
+      background-size: cover !important;
+    }
+  }
+
+  .precautions {
+    h3 {
+      font-size: 20px !important;
+      margin: 0 0 20px 0 !important;
+    }
+  }
+}
+
+//--------- super strength page end
+
+
+//-----------illumina listing start
+@media(max-width: 768px) {
+  .asKidwonderWalls {
+    .MissionVision__single__left {
+      margin-left: 15px;
+    }
+
+    .chooseColor__left {
+      h3, p, a {
+        margin-left: 50px;
+      }
+    }
+  }
+
+  .expert_opinion {
+    a {
+      padding: 10px 30px;
+      width: calc(100% - 30px);
+    }
+  }
+}
+
+@media(max-width: 767px) {
+  .asKidwonderWalls {
+    .MissionVision__single__left {
+      margin-left: 15px;
+    }
+
+    .col-md-5 {
+      margin-top: 0;
+      margin-bottom: 20px;
+      padding-right: 15px !important;
+    }
+
+    .chooseColor__left {
+      h3, p, a {
+        margin-left: 15px;
+      }
+    }
+  }
+
+  .expert_opinion {
+    h3 {
+      font-size: 20px !important;
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+
+  }
+
+}
+
+//------------illumina listing end
+
+
+//--------------elite care
+
+@media(max-width: 767px) {
+  .product_list {
+    h3 {
+      font-size: 20px;
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+
+    .Products__lists__single:nth-child(odd) {
+      padding-left: 0;
+    }
+
+    .Products__lists__single:nth-child(even) {
+      padding-right: 0;
+    }
+  }
+}
+
+//--------------elite care end
+
+
+//------------illumina details
+@media(max-width: 767px) {
+  .illumina_Collection {
+    .button {
+      margin-bottom: 20px !important;
+      margin-top: 0 !important;
+    }
+
+    .col-md-3 {
+      margin-bottom: 15px !important;
+      width: 50%;
+      float: left;
+
+      &:nth-child(even) {
+        padding-left: 7.5px;
+      }
+
+      &:nth-child(odd) {
+        padding-right: 7.5px;
+      }
+    }
+
+    .col-md-4 {
+      width: 50%;
+      float: left;
+
+      &:nth-child(even) {
+        padding-left: 7.5px;
+      }
+
+      &:nth-child(odd) {
+        padding-right: 7.5px;
+      }
+    }
+
+
+  }
+
+  .illumina_Collection .row .col-md-3 .img-block a .gallery-hover {
+    opacity: 1 !important
+  }
+}
+
+//------------illumina details
+
+
+//video gallery
+@media (max-width: 767px) {
+  .video_gallery .container .img-block .gallerybg img {
+    height: 30px;
+  }
+}
+
+
+@media(max-width: 767px) {
+  .asSuperApplication .chooseColor__left {
+    padding-left: 0 !important;
+
+    .chooseColor__left h4 {
+      margin-bottom: 24px;
+    }
+  }
+  .asSuperApplication .chooseColor__left h4 {
+    margin-bottom: 20px;
+  }
+
+}
+
+
+@media(max-width: 767px) {
+  .videoTestimonial__single {
+    margin-bottom: 16px;
+
+    &:nth-child(odd) {
+      padding-right: 8px;
+    }
+
+    &:nth-child(even) {
+      padding-left: 8px;
+    }
+  }
+  .videoTestimonial .Title {
+    margin-bottom: 30px;
+  }
+
+  .TextArea {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+  }
+}
+
+
+@media(max-width: 767px) {
+  .asApps {
+    .ProdectDes__detail__left__single {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+  }
+}
+
+
+@media(max-width: 767px) {
+  .infoForm__form form .form-group button {
+    width: 100%;
+  }
+}
+
+
+//calculator
+@media(max-width: 991px) {
+  .Calculator__left {
+    padding: 50px 25px;
+
+    &__select {
+      margin-bottom: 0;
+
+      .col-md-6 {
+        width: 100%;
+        padding: 0;
+      }
+
+      .nice-select {
+        margin-bottom: 18px;
+      }
+    }
+  }
+  .Calculator__left__range__input {
+    width: calc(100% - 110px);
+  }
+  .Calculator__left__range__output {
+    width: 80px;
+  }
+
+}
+
+@media(max-width: 767px) {
+  .Calculator__left__range label {
+    font-size: 11px;
+  }
+  .Calculator__right__btns a {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .Calculator__right {
+    padding-right: 30px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .CustomUpload {
+    h4 {
+      margin-top: 0;
+      margin-bottom: 5px !important;
+    }
+  }
+}
+
+
+//custom light gallery
+@media(max-width: 767px) {
+  .lg-thumb-outer {
+    display: none;
+  }
+  .lg-actions .lg-next {
+    right: 20px !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
