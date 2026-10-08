@@ -1,0 +1,298 @@
+.featuredSliser .facilitySlider__slide-wrap__single__wrapper__bg {
+    padding: 20px !important;
+    text-align: center;
+    height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.featuredSliser .facilitySlider__slide-wrap__single__wrapper__bg img {
+    display: block;
+    height: 220px;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.featuredSliser .facilitySlider__slide-wrap__single__wrapper__content h4 {
+    min-height: 52px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+
+.see-all-products-wrap {
+    text-align: center;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.see-all-products-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #484848;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all .3s ease;
+    text-decoration: none;
+    border: 1px solid #484848;
+    padding: 12px 35px;
+    background: transparent;
+    position: relative;
+    overflow: hidden;
+}
+
+.see-all-products-btn span {
+    position: relative;
+    z-index: 2;
+    transition: all .3s ease;
+}
+
+.see-all-products-btn svg {
+    margin-left: 14px;
+    position: relative;
+    z-index: 2;
+    transition: all .3s ease;
+}
+
+.see-all-products-btn svg path {
+    fill: #484848;
+    transition: all .3s ease;
+}
+
+/* Sliding background effect identical to template epBtn */
+.see-all-products-btn:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    transition: width .3s ease;
+    background: #0060AF;
+    z-index: 1;
+}
+
+.see-all-products-btn:hover {
+    border-color: #0060AF !important;
+}
+
+.see-all-products-btn:hover span {
+    color: #FFF !important;
+}
+
+.see-all-products-btn:hover svg path {
+    fill: #FFF !important;
+}
+
+.see-all-products-btn:hover:after {
+    width: 100%;
+}
+
+/* Featured Products Slider Arrows - Exactly identical to Services */
+.featuredSliser .facilitySlider__slide-wrap {
+    position: relative;
+}
+
+.featuredSliser .facilitySlider__slide-wrap .FeatureSliderPrev,
+.featuredSliser .facilitySlider__slide-wrap .FeatureSliderNext {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 99;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.featuredSliser .facilitySlider__slide-wrap .FeatureSliderPrev {
+    left: -40px;
+}
+
+.featuredSliser .facilitySlider__slide-wrap .FeatureSliderNext {
+    right: -40px;
+}
+
+.featuredSliser .facilitySlider__slide-wrap .FeatureSliderPrev svg,
+.featuredSliser .facilitySlider__slide-wrap .FeatureSliderNext svg {
+    width: 30px;
+    height: 30px;
+}
+
+.featuredSliser .facilitySlider__slide-wrap .FeatureSliderPrev svg path,
+.featuredSliser .facilitySlider__slide-wrap .FeatureSliderNext svg path {
+    fill: #C9C9C9;
+    transition: fill .2s ease-in;
+}
+
+.featuredSliser .facilitySlider__slide-wrap .FeatureSliderPrev:hover svg path,
+.featuredSliser .facilitySlider__slide-wrap .FeatureSliderNext:hover svg path {
+    fill: #484848;
+}
+
+/* Product Detail Slider (Shared for multi-image product pages) */
+.product-slider-wrapper {
+    position: relative;
+    background: #FAFAFA;
+    border: 1px solid #EFEFEF;
+    border-radius: 8px;
+    padding: 40px 20px;
+    box-shadow: 0 10px 30px rgba(60, 74, 85, 0.08);
+    max-width: 480px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.product-slider-init .slick-list {
+    overflow: hidden;
+}
+
+.product-slider-init .product-slide-item {
+    outline: none;
+    text-align: center;
+}
+
+.product-slider-init .product-slide-item img {
+    max-height: 420px;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+    transition: opacity 0.3s ease;
+}
+
+.product-slider-prev,
+.product-slider-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    cursor: pointer;
+    width: 36px;
+    height: 36px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .2s ease;
+}
+
+.product-slider-prev {
+    left: 10px;
+}
+
+.product-slider-next {
+    right: 10px;
+}
+
+.product-slider-prev svg,
+.product-slider-next svg {
+    width: 20px;
+    height: 20px;
+}
+
+.product-slider-prev svg path,
+.product-slider-next svg path {
+    fill: #777;
+    transition: fill .2s ease;
+}
+
+.product-slider-prev:hover,
+.product-slider-next:hover {
+    background: #0060AF;
+}
+
+.product-slider-prev:hover svg path,
+.product-slider-next:hover svg path {
+    fill: #FFF;
+}
+
+/* Tablet & Mobile Responsiveness */
+@media (max-width: 991px) {
+    .product-slider-wrapper {
+        margin-bottom: 30px;
+    }
+    .chooseColor__left {
+        padding-left: 15px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .featuredSliser .facilitySlider__slide-wrap .FeatureSliderPrev,
+    .featuredSliser .facilitySlider__slide-wrap .FeatureSliderNext {
+        display: none !important;
+    }
+    
+    .featuredSliser .facilitySlider__slide-wrap__single__wrapper__bg {
+        height: 220px;
+    }
+    
+    .featuredSliser .facilitySlider__slide-wrap__single__wrapper__bg img {
+        height: 180px;
+    }
+    
+    .product-slider-wrapper {
+        padding: 25px 15px;
+    }
+    
+    .product-slider-init .product-slide-item img {
+        max-height: 280px;
+    }
+    
+    .chooseColor__left h2 {
+        font-size: 24px !important;
+    }
+}
+
+/* Perfect alignment for Client Logo Slider */
+.ClientSlider__item {
+    text-align: center;
+    padding: 0 15px;
+    outline: none;
+}
+
+.ClientSlider__item .ClientLink {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    width: 100%;
+    outline: none;
+    text-decoration: none;
+}
+
+.ClientSlider__item img {
+    display: block !important;
+    max-height: 65px !important;
+    max-width: 150px !important;
+    width: auto !important;
+    height: auto !important;
+    object-fit: contain !important;
+    margin: 0 auto !important;
+    transition: transform 0.3s ease;
+}
+
+.ClientSlider__item img:hover {
+    transform: scale(1.06);
+}
+
+
+
+
+
+
+
+

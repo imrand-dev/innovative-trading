@@ -1,18 +1,18 @@
  <ul>
         <li class="active">
-            <a href="">Home</a>
+            <a href="index.php">Home</a>
         </li>
         <li class="">
             <a href="about-us.php">About Us</a>
         </li>
         <li class="">
-            <a href="#">Products</a>
+            <a href="index.php#products">Products</a>
         </li>
         <li class="">
-            <a href="/NewsMedia.php">News and Media</a>
+            <a href="NewsMedia.php">News and Media</a>
         </li>
         <li class="">
-            <a href="/galary.php">Gallary</a>
+            <a href="galary.php">Gallary</a>
         </li>
         <li class="has_child " >
                     <a  href="javascript:">Services</a>
@@ -39,6 +39,6 @@
         
  
         <li class="">
-            <a href="/contact-us.php">Contact Us</a>
+            <a href="contact-us.php">Contact Us</a>
         </li>
     </ul>

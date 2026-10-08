@@ -71,8 +71,8 @@
 <section class="MenuBar">
     <div class="container">
        <div class="logo">
-            <a href="https://innovativetradingbd.com"><img src="themes/cms/assets/images/static/Innovative-Trading-logo.svg"
-                                            alt="logo missing"  width="150"
+            <a href="index.php"><img src="themes/cms/assets/images/static/Innovative-logo.png"
+                                            alt="Innovative Trading"  width="150"
              height="100"></a>
         </div>
 
@@ -312,7 +312,7 @@ include 'menu.php';
 <?php
 
 
-include 'footer.php';
+include './assets/151b2384/css/footer.php';
 
 
 

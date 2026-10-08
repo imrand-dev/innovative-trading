@@ -386,22 +386,34 @@ $(document).ready(function() {
 
 
 
-    //------------------- T.A.1.0-Component-10 start
+    //------------------- T.A.1.0-Component-10 start (Step-by-Step Smooth Glide Loop)
     if ($('.featureSliderInit').length > 0) {
         $('.featureSliderInit').slick({
             infinite: true,
             slidesToShow: 3,
             slidesToScroll: 1,
-            speed: 900,
+            speed: 800,
+            cssEase: 'cubic-bezier(0.25, 1, 0.5, 1)',
+            autoplay: true,
+            autoplaySpeed: 3000,
             dots: false,
-            pauseOnFocus: false,
-            pauseOnHover: false,
-            autoplay: false,
             arrows: true,
-            draggable: false,
             prevArrow: '.FeatureSliderPrev',
             nextArrow: '.FeatureSliderNext',
+            pauseOnHover: true,
+            pauseOnFocus: false,
+            draggable: true,
+            swipe: true,
             responsive: [{
+                    breakpoint: 991,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        arrows: true,
+                        dots: false,
+                    }
+                },
+                {
                     breakpoint: 767,
                     settings: {
                         slidesToShow: 1,
@@ -409,12 +421,8 @@ $(document).ready(function() {
                         arrows: false,
                         dots: true,
                         draggable: true,
-
                     }
                 }
-
-
-
             ]
         });
     }

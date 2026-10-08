@@ -12,10 +12,11 @@
     <meta name="author" content="Dcastalia LTD">
 
     <meta name="csrf-param" content="_csrf-frontend">
-    <meta name="csrf-token" content="8B4Ov0E-xPXs4amiPs0AOdMp--91kqSlJO8u5SjivZembX6Hc1envtuVmOkJnWFugFPI2wSl9p1q2RfUTJD--A==">
+    <meta name="csrf-token"
+        content="8B4Ov0E-xPXs4amiPs0AOdMp--91kqSlJO8u5SjivZembX6Hc1envtuVmOkJnWFugFPI2wSl9p1q2RfUTJD--A==">
     <link rel="icon" href="themes/cms/assets/images/static/Innovative-Trading-logo.svg" sizes="16x16" type="image/png">
 
-    <title>About Us | Innovative Trading</title>
+    <title>About Us | Innovative Coatings</title>
     <meta name="theme-color" content="#ffffff">
 
 
@@ -41,9 +42,7 @@
 <section class="MenuBar">
     <div class="container">
         <div class="logo">
- 
-            <a href="https://innovativetradingbd.com/"><img src="themes/cms/assets/images/static/Innovative-Trading-logo.svg" alt="logo missing"  width="200"
-             height="150></a>
+            <a href="index.php"><img src="themes/cms/assets/images/static/Innovative-logo.png" alt="Innovative Coatings" width="150" height="100"></a>
         </div>
 
         <div class="menuHamburger">
@@ -90,7 +89,7 @@
             <a href="/about-us">About Us</a>
         </li>
         <li class="">
-            <a href="/category/view">Products</a>
+            <a href="products.php">Products</a>
         </li>
 
                         <li class="has_child " >
@@ -174,7 +173,7 @@
                 </li>
         
         <li class="">
-            <a href="/contact-us">Contact Us</a>
+            <a href="contact-us.php">Contact Us</a>
         </li>
     </ul>
 </section>
@@ -225,8 +224,8 @@
                             <div class="col-md-12">
                                 <h2 class="anim fadeRightWord">modern & innovative wood
 coatings solutions</h2>
-                                <p class="anim fadeUp">Innovative Trading, Our company is doing business since 2013. We currently supply our products in various parts of Bangladesh in many sectors such as architecture and constructions, modern and contemporary furniture industries, paint and coatings industries, printing industries, paints & hardware shops. 
- The core business of Innovative Trading is
+                                <p class="anim fadeUp">Innovative Coatings, Our company is doing business since 2013. We currently supply our products in various parts of Bangladesh in many sectors such as architecture and constructions, modern and contemporary furniture industries, paint and coatings industries, printing industries, paints & hardware shops. 
+ The core business of Innovative Coatings is
 to provide modern & innovative wood
 coatings solutions to the furniture's,
 architectural, constructions & retailers.
@@ -519,7 +518,7 @@ entities .</p>
 <?php
 
 
-include 'footer.php';
+include './assets/151b2384/css/footer.php';
 
 
 
@@ -534,7 +533,7 @@ include 'footer.php';
 <script src="themes/cms/assets/js/bundle.min.js"></script>
 <script src="themes/cms/assets/js/inner.js"></script>
 <script>jQuery(function ($) {
-        $(document).delegate('.dynamic_submit_btn', 'click', function(event, jqXHR, settings) {
+        $(document).delegate('.dynamic_submit_btn', 'click', function (event, jqXHR, settings) {
 
 
 
@@ -544,7 +543,7 @@ include 'footer.php';
 
 
 
-            if(form.find('.has-error').length) {
+            if (form.find('.has-error').length) {
 
                 return false;
 
@@ -554,88 +553,88 @@ include 'footer.php';
 
             $.ajax({
 
-                    url: form.attr('action'),
+                url: form.attr('action'),
 
-                    type: 'post',
+                type: 'post',
 
-                    data: form.serialize(),
+                data: form.serialize(),
 
-                    beforeSend : function( request ){
+                beforeSend: function (request) {
 
-                        $('.success_wrapper_'+form_id).addClass('hide');
+                    $('.success_wrapper_' + form_id).addClass('hide');
 
-                        $('.error_wrapper_'+form_id).addClass('hide');
+                    $('.error_wrapper_' + form_id).addClass('hide');
 
-                    },
+                },
 
-                    success: function(data) {
-
-
-
-                        if(data.result=='success'){
-
-                            form[0].reset();
-
-                            $('.success_wrapper_'+form_id).removeClass('hide');
-
-                            $('.error_wrapper_'+form_id).addClass('hide');
-                            
-
-                            $('.success_container_'+form_id).html(data.msg);
-
-                            $('.error_container_'+form_id).html('');
-
-                            if($('.dynamic_upload_file_cv_upload').length > 0){
-                            
-                                $('.dynamic_upload_file_cv_upload').val('');
-                            
-                                $('.uploded_file_cv_upload').empty('');
-                                
-                                $('.file_name').empty('');
-                            
-                            }
-                            
-                            
-                            $('.success_wrapper_'+form_id + ' > .form-message-body').removeClass('hide');
-                            $('.success_wrapper_'+form_id + ' > .form-message-body').show();
-                            
-
-                            setTimeout(function() {
-
-                              $('.success_wrapper_'+form_id).addClass('hide');
-
-                            }, 8000);
-
-                        }else{
-                            $('.error_wrapper_'+form_id).removeClass('hide');
-                            
-                            
-
-                            $('.error_wrapper_'+form_id + ' > .form-message-body').removeClass('hide');
-                            $('.error_wrapper_'+form_id + ' > .form-message-body').show();
-                            
-                            $('.error_container_'+form_id).html(data.msg);
-
-                            $('.success_container_'+form_id).html('');
+                success: function (data) {
 
 
 
-                            $('.success_wrapper_'+form_id).addClass('hide');
+                    if (data.result == 'success') {
+
+                        form[0].reset();
+
+                        $('.success_wrapper_' + form_id).removeClass('hide');
+
+                        $('.error_wrapper_' + form_id).addClass('hide');
 
 
+                        $('.success_container_' + form_id).html(data.msg);
 
+                        $('.error_container_' + form_id).html('');
 
-                            setTimeout(function() {
+                        if ($('.dynamic_upload_file_cv_upload').length > 0) {
 
-                              $('.error_wrapper_'+form_id).addClass('hide');
+                            $('.dynamic_upload_file_cv_upload').val('');
 
-                            }, 5000);
+                            $('.uploded_file_cv_upload').empty('');
 
-
+                            $('.file_name').empty('');
 
                         }
 
+
+                        $('.success_wrapper_' + form_id + ' > .form-message-body').removeClass('hide');
+                        $('.success_wrapper_' + form_id + ' > .form-message-body').show();
+
+
+                        setTimeout(function () {
+
+                            $('.success_wrapper_' + form_id).addClass('hide');
+
+                        }, 8000);
+
+                    } else {
+                        $('.error_wrapper_' + form_id).removeClass('hide');
+
+
+
+                        $('.error_wrapper_' + form_id + ' > .form-message-body').removeClass('hide');
+                        $('.error_wrapper_' + form_id + ' > .form-message-body').show();
+
+                        $('.error_container_' + form_id).html(data.msg);
+
+                        $('.success_container_' + form_id).html('');
+
+
+
+                        $('.success_wrapper_' + form_id).addClass('hide');
+
+
+
+
+                        setTimeout(function () {
+
+                            $('.error_wrapper_' + form_id).addClass('hide');
+
+                        }, 5000);
+
+
+
                     }
+
+                }
 
             });
 
@@ -647,7 +646,7 @@ include 'footer.php';
 
 
 
-});</script>
+    });</script>
 </body>
 
 </html>
