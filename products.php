@@ -64,9 +64,9 @@
                 <!-- Product 1: Innovative Wood Stain -->
                 <div class="col-md-4 col-sm-6" style="margin-bottom: 30px;">
                     <div class="facilitySlider__slide-wrap__single">
-                        <a href="products/innovative-stain.php" target="_blank"></a>
+                        <a href="products/innovative-stain.php"></a>
                         <div class="facilitySlider__slide-wrap__single__wrapper">
-                            <div class="facilitySlider__slide-wrap__single__wrapper__bg">
+                            <div class="facilitySlider__slide-wrap__single__wrapper__bg" style="background: white;">
                                 <img src="admin/uploads/products/innovative-stain/Innovative-Wood-Stain-4.5L.jpeg"
                                     alt="Innovative Wood Stain" loading="lazy">
                             </div>
@@ -74,7 +74,7 @@
                                 <h4>Innovative Wood Stain</h4>
                                 <p>INNOVATIVE STAIN is a premium-quality wood stain solution specially developed to
                                     enhance the natural beauty...</p>
-                                <a href="products/innovative-stain.php" target="_blank">
+                                <a href="products/innovative-stain.php">
                                     <span>Learn More</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
                                         <path id="Subtraction_10" data-name="Subtraction 1"
@@ -90,7 +90,7 @@
                 <!-- Product 2: Innovative PU Coatings -->
                 <div class="col-md-4 col-sm-6" style="margin-bottom: 30px;">
                     <div class="facilitySlider__slide-wrap__single">
-                        <a href="products/innovative-pu-coatings.php" target="_blank"></a>
+                        <a href="products/innovative-pu-coatings.php"></a>
                         <div class="facilitySlider__slide-wrap__single__wrapper">
                             <div class="facilitySlider__slide-wrap__single__wrapper__bg">
                                 <img src="admin/uploads/products/innovative-pu-coatings/Innovative pu coatings 5L.jpeg"
@@ -100,7 +100,7 @@
                                 <h4>Innovative PU Coatings</h4>
                                 <p>INNOVATIVE PU COATINGS is a premium polyurethane wood coating system specially
                                     developed to provide superior...</p>
-                                <a href="products/innovative-pu-coatings.php" target="_blank">
+                                <a href="products/innovative-pu-coatings.php">
                                     <span>Learn More</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
                                         <path id="Subtraction_10" data-name="Subtraction 1"
@@ -116,9 +116,9 @@
                 <!-- Product 3: Versatile PU Coatings -->
                 <div class="col-md-4 col-sm-6" style="margin-bottom: 30px;">
                     <div class="facilitySlider__slide-wrap__single">
-                        <a href="products/versatile-pu-coatings.php" target="_blank"></a>
+                        <a href="products/versatile-pu-coatings.php"></a>
                         <div class="facilitySlider__slide-wrap__single__wrapper">
-                            <div class="facilitySlider__slide-wrap__single__wrapper__bg">
+                            <div class="facilitySlider__slide-wrap__single__wrapper__bg" style="background: #FCFCFC;">
                                 <img src="admin/uploads/products/versatile-pu-coatings/VersatilePu-Coating-1KG.png"
                                     alt="Versatile PU Coatings" loading="lazy">
                             </div>
@@ -126,7 +126,7 @@
                                 <h4>Versatile PU Coatings</h4>
                                 <p>VERSATILE PU COATINGS is a high-performance polyurethane coating system developed to
                                     deliver excellent protection, durability...</p>
-                                <a href="products/versatile-pu-coatings.php" target="_blank">
+                                <a href="products/versatile-pu-coatings.php">
                                     <span>Learn More</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
                                         <path id="Subtraction_10" data-name="Subtraction 1"
@@ -142,9 +142,9 @@
                 <!-- Product 4: Innovative PU Hardener -->
                 <div class="col-md-4 col-sm-6" style="margin-bottom: 30px;">
                     <div class="facilitySlider__slide-wrap__single">
-                        <a href="products/innovative-pu-hardener.php" target="_blank"></a>
+                        <a href="products/innovative-pu-hardener.php"></a>
                         <div class="facilitySlider__slide-wrap__single__wrapper">
-                            <div class="facilitySlider__slide-wrap__single__wrapper__bg">
+                            <div class="facilitySlider__slide-wrap__single__wrapper__bg" style="background: white;">
                                 <img src="admin/uploads/products/innovative-pu-hardener/Innovative-pu-Hardener-5L.jpeg"
                                     alt="Innovative PU Hardener" loading="lazy">
                             </div>
@@ -152,7 +152,7 @@
                                 <h4>Innovative PU Hardener</h4>
                                 <p>INNOVATIVE PU HARDENER is a high-quality curing component specially formulated for
                                     use with polyurethane...</p>
-                                <a href="products/innovative-pu-hardener.php" target="_blank">
+                                <a href="products/innovative-pu-hardener.php">
                                     <span>Learn More</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
                                         <path id="Subtraction_10" data-name="Subtraction 1"
@@ -168,9 +168,9 @@
                 <!-- Product 5: Versatile Hardener -->
                 <div class="col-md-4 col-sm-6" style="margin-bottom: 30px;">
                     <div class="facilitySlider__slide-wrap__single">
-                        <a href="products/versatile-hardener.php" target="_blank"></a>
+                        <a href="products/versatile-hardener.php"></a>
                         <div class="facilitySlider__slide-wrap__single__wrapper">
-                            <div class="facilitySlider__slide-wrap__single__wrapper__bg">
+                            <div class="facilitySlider__slide-wrap__single__wrapper__bg" style="background: white;">
                                 <img src="admin/uploads/products/versatile-hardener/versatile-hardener-5L.jpeg"
                                     alt="Versatile Hardener" loading="lazy">
                             </div>
@@ -178,7 +178,7 @@
                                 <h4>Versatile Hardener</h4>
                                 <p>VERSATILE HARDENER is a high-performance curing component specially developed for use
                                     with compatible polyurethane...</p>
-                                <a href="products/versatile-hardener.php" target="_blank">
+                                <a href="products/versatile-hardener.php">
                                     <span>Learn More</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
                                         <path id="Subtraction_10" data-name="Subtraction 1"
@@ -194,9 +194,9 @@
                 <!-- Product 6: AAA Innovative Thinner -->
                 <div class="col-md-4 col-sm-6" style="margin-bottom: 30px;">
                     <div class="facilitySlider__slide-wrap__single">
-                        <a href="products/aaa-thinner.php" target="_blank"></a>
+                        <a href="products/aaa-thinner.php"></a>
                         <div class="facilitySlider__slide-wrap__single__wrapper">
-                            <div class="facilitySlider__slide-wrap__single__wrapper__bg">
+                            <div class="facilitySlider__slide-wrap__single__wrapper__bg" style="background: #DFE0DB;">
                                 <img src="admin/uploads/products/AAA-INNOVATIVE-THINNER.jpeg"
                                     alt="AAA Innovative Thinner" loading="lazy">
                             </div>
@@ -204,7 +204,7 @@
                                 <h4>AAA Innovative Thinner</h4>
                                 <p>Introducing our premium Thinners - the essential partner for your painting projects.
                                     Specially formulated for optimal...</p>
-                                <a href="products/aaa-thinner.php" target="_blank">
+                                <a href="products/aaa-thinner.php">
                                     <span>Learn More</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
                                         <path id="Subtraction_10" data-name="Subtraction 1"
@@ -220,9 +220,9 @@
                 <!-- Product 7: Versatile Automotive Thinner -->
                 <div class="col-md-4 col-sm-6" style="margin-bottom: 30px;">
                     <div class="facilitySlider__slide-wrap__single">
-                        <a href="products/versatile-automotive-thinner.php" target="_blank"></a>
+                        <a href="products/versatile-automotive-thinner.php"></a>
                         <div class="facilitySlider__slide-wrap__single__wrapper">
-                            <div class="facilitySlider__slide-wrap__single__wrapper__bg">
+                            <div class="facilitySlider__slide-wrap__single__wrapper__bg" style="background: #D0D0D0;">
                                 <img src="admin/uploads/products/versatile-automotive-thinner/Versatile-Automotive-Thinner-3.785-Litre.jpeg"
                                     alt="Versatile Automotive Thinner" loading="lazy">
                             </div>
@@ -230,7 +230,7 @@
                                 <h4>Versatile Automotive Thinner</h4>
                                 <p>VERSATILE AUTOMOTIVE THINNER is a high-quality thinner specially formulated for
                                     automotive painting and refinishing...</p>
-                                <a href="products/versatile-automotive-thinner.php" target="_blank">
+                                <a href="products/versatile-automotive-thinner.php">
                                     <span>Learn More</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
                                         <path id="Subtraction_10" data-name="Subtraction 1"
@@ -246,9 +246,9 @@
                 <!-- Product 8: Innovative Automotive Lacquer & Hardener -->
                 <div class="col-md-4 col-sm-6" style="margin-bottom: 30px;">
                     <div class="facilitySlider__slide-wrap__single">
-                        <a href="products/innovative-automotive-lacquer.php" target="_blank"></a>
+                        <a href="products/innovative-automotive-lacquer.php"></a>
                         <div class="facilitySlider__slide-wrap__single__wrapper">
-                            <div class="facilitySlider__slide-wrap__single__wrapper__bg">
+                            <div class="facilitySlider__slide-wrap__single__wrapper__bg" style="background: #DFE3E6;">
                                 <img src="admin/uploads/products/innovative-automative-hardener-lacquer/Innovative-Automotive-Lacquer-&-Hardener-1L-500ml.jpeg"
                                     alt="Innovative Automotive Lacquer & Hardener" loading="lazy">
                             </div>
@@ -256,7 +256,7 @@
                                 <h4>Innovative Automotive Lacquer & Hardener</h4>
                                 <p>INNOVATIVE AUTOMOTIVE LACQUER & HARDENER is a professional-grade coating system
                                     specially developed for automotive...</p>
-                                <a href="products/innovative-automotive-lacquer.php" target="_blank">
+                                <a href="products/innovative-automotive-lacquer.php">
                                     <span>Learn More</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
                                         <path id="Subtraction_10" data-name="Subtraction 1"
@@ -272,9 +272,9 @@
                 <!-- Product 9: Innovative Thinner 25 Litre -->
                 <div class="col-md-4 col-sm-6" style="margin-bottom: 30px;">
                     <div class="facilitySlider__slide-wrap__single">
-                        <a href="products/innovative-thinner-25l.php" target="_blank"></a>
+                        <a href="products/innovative-thinner-25l.php"></a>
                         <div class="facilitySlider__slide-wrap__single__wrapper">
-                            <div class="facilitySlider__slide-wrap__single__wrapper__bg">
+                            <div class="facilitySlider__slide-wrap__single__wrapper__bg" style="background: white;">
                                 <img src="admin/uploads/products/innovative-thinner/innovative-thinner-25l.png"
                                     alt="Innovative Thinner 25 Litre" loading="lazy">
                             </div>
@@ -282,7 +282,7 @@
                                 <h4>Innovative Thinner 25 Litre</h4>
                                 <p>INNOVATIVE THINNER is a high-quality thinner developed for professional painting and
                                     coating applications...</p>
-                                <a href="products/innovative-thinner-25l.php" target="_blank">
+                                <a href="products/innovative-thinner-25l.php">
                                     <span>Learn More</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
                                         <path id="Subtraction_10" data-name="Subtraction 1"
@@ -298,9 +298,9 @@
                 <!-- Product 10: Innovative Thinner 5 Litre -->
                 <div class="col-md-4 col-sm-6" style="margin-bottom: 30px;">
                     <div class="facilitySlider__slide-wrap__single">
-                        <a href="products/innovative-thinner-5l.php" target="_blank"></a>
+                        <a href="products/innovative-thinner-5l.php"></a>
                         <div class="facilitySlider__slide-wrap__single__wrapper">
-                            <div class="facilitySlider__slide-wrap__single__wrapper__bg">
+                            <div class="facilitySlider__slide-wrap__single__wrapper__bg" style="background: white;">
                                 <img src="admin/uploads/products/innovative-thinner/innovative-thinner-5l.jpeg"
                                     alt="Innovative Thinner 5 Litre" loading="lazy">
                             </div>
@@ -308,7 +308,7 @@
                                 <h4>Innovative Thinner 5 Litre</h4>
                                 <p>INNOVATIVE THINNER is a high-quality thinner specially developed for professional
                                     painting and coating applications. It helps...</p>
-                                <a href="products/innovative-thinner-5l.php" target="_blank">
+                                <a href="products/innovative-thinner-5l.php">
                                     <span>Learn More</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
                                         <path id="Subtraction_10" data-name="Subtraction 1"

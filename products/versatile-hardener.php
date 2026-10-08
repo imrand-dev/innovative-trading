@@ -74,7 +74,7 @@
 
                 <!-- Product Images Slider Column (2 Images) -->
                 <div class="col-md-6 col-sm-6 chooseColor__right" style="margin-bottom: 30px;">
-                    <div class="product-slider-wrapper">
+                    <div class="product-slider-wrapper" style="background: white">
 
                         <!-- Slider Prev Arrow -->
                         <a href="javascript:void(0)" class="product-slider-prev">

@@ -916,9 +916,9 @@ Explore Our Colors</p>
                         </a>
                         <div class="featureSliderInit">                                <!-- ==============product 1: Innovative Wood Stain ==================-->
                                 <div class="facilitySlider__slide-wrap__single">
-                                    <a href="products/innovative-stain.php" target="_blank"></a>
+                                    <a href="products/innovative-stain.php"></a>
                                     <div class="facilitySlider__slide-wrap__single__wrapper">
-                                        <div class="facilitySlider__slide-wrap__single__wrapper__bg">
+                                        <div class="facilitySlider__slide-wrap__single__wrapper__bg" style="background: white;">
                                              <img src="admin/uploads/products/innovative-stain/Innovative-Wood-Stain-4.5L.jpeg"
                                                   alt="Innovative Wood Stain" loading="lazy">
                                         </div>
@@ -940,9 +940,9 @@ Explore Our Colors</p>
 
                                 <!-- ============product 2: Innovative PU Coatings============== -->
                                 <div class="facilitySlider__slide-wrap__single">
-                                    <a href="products/innovative-pu-coatings.php" target="_blank"></a>
+                                    <a href="products/innovative-pu-coatings.php"></a>
                                     <div class="facilitySlider__slide-wrap__single__wrapper">
-                                        <div class="facilitySlider__slide-wrap__single__wrapper__bg">
+                                        <div class="facilitySlider__slide-wrap__single__wrapper__bg" style="background: #F2F2F5">
                                             <img src="admin/uploads/products/innovative-pu-coatings/Innovative pu coatings 5L.jpeg"
                                                  alt="Innovative PU Coatings" loading="lazy">
                                         </div>
@@ -964,9 +964,9 @@ Explore Our Colors</p>
 
                                 <!-- ============product 3: Versatile PU Coatings============ -->
                                 <div class="facilitySlider__slide-wrap__single">
-                                    <a href="products/versatile-pu-coatings.php" target="_blank"></a>
+                                    <a href="products/versatile-pu-coatings.php"></a>
                                     <div class="facilitySlider__slide-wrap__single__wrapper">
-                                        <div class="facilitySlider__slide-wrap__single__wrapper__bg">
+                                        <div class="facilitySlider__slide-wrap__single__wrapper__bg" style="background: #FCFCFC;">
                                             <img src="admin/uploads/products/versatile-pu-coatings/VersatilePu-Coating-1KG.png"
                                                  alt="Versatile PU Coatings" loading="lazy">
                                         </div>
@@ -988,9 +988,9 @@ Explore Our Colors</p>
 
                                 <!-- product 4: Innovative PU Hardener-->
                                 <div class="facilitySlider__slide-wrap__single">
-                                    <a href="products/innovative-pu-hardener.php" target="_blank"></a>
+                                    <a href="products/innovative-pu-hardener.php"></a>
                                     <div class="facilitySlider__slide-wrap__single__wrapper">
-                                        <div class="facilitySlider__slide-wrap__single__wrapper__bg">
+                                        <div class="facilitySlider__slide-wrap__single__wrapper__bg" style="background: white;">
                                             <img src="admin/uploads/products/innovative-pu-hardener/Innovative-pu-Hardener-5L.jpeg"
                                                  alt="Innovative PU Hardener" loading="lazy">
                                         </div>
@@ -1013,9 +1013,9 @@ Explore Our Colors</p>
 
                                 <!-- product 5: Versatile Hardener-->
                                 <div class="facilitySlider__slide-wrap__single">
-                                    <a href="products/versatile-hardener.php" target="_blank"></a>
+                                    <a href="products/versatile-hardener.php"></a>
                                     <div class="facilitySlider__slide-wrap__single__wrapper">
-                                        <div class="facilitySlider__slide-wrap__single__wrapper__bg">
+                                        <div class="facilitySlider__slide-wrap__single__wrapper__bg" style="background: white;">
                                             <img src="admin/uploads/products/versatile-hardener/versatile-hardener-5L.jpeg"
                                                  alt="Versatile Hardener" loading="lazy">
                                         </div>
@@ -1038,9 +1038,9 @@ Explore Our Colors</p>
 
                                 <!-- product 6: AAA Innovative Thinner-->
                                 <div class="facilitySlider__slide-wrap__single">
-                                    <a href="products/aaa-thinner.php" target="_blank"></a>
+                                    <a href="products/aaa-thinner.php"></a>
                                     <div class="facilitySlider__slide-wrap__single__wrapper">
-                                        <div class="facilitySlider__slide-wrap__single__wrapper__bg">
+                                        <div class="facilitySlider__slide-wrap__single__wrapper__bg" style="background: #DFE0DB;">
                                             <img src="admin/uploads/products/AAA-INNOVATIVE-THINNER.jpeg"
                                                  alt="AAA Innovative Thinner" loading="lazy">
                                         </div>
@@ -1062,9 +1062,9 @@ Explore Our Colors</p>
 
                                 <!-- product 7: Versatile Automotive Thinner-->
                                 <div class="facilitySlider__slide-wrap__single">
-                                    <a href="products/versatile-automotive-thinner.php" target="_blank"></a>
+                                    <a href="products/versatile-automotive-thinner.php"></a>
                                     <div class="facilitySlider__slide-wrap__single__wrapper">
-                                        <div class="facilitySlider__slide-wrap__single__wrapper__bg">
+                                        <div class="facilitySlider__slide-wrap__single__wrapper__bg" style="background: #D0D0D0;">
                                              <img src="admin/uploads/products/versatile-automotive-thinner/Versatile-Automotive-Thinner-3.785-Litre.jpeg"
                                                   alt="versatile automotive thinner" loading="lazy">
                                         </div>
@@ -1086,9 +1086,9 @@ Explore Our Colors</p>
 
                                 <!-- product 8: Lacquer & Hardener-->
                                 <div class="facilitySlider__slide-wrap__single">
-                                    <a href="products/innovative-automotive-lacquer.php" target="_blank"></a>
+                                    <a href="products/innovative-automotive-lacquer.php"></a>
                                     <div class="facilitySlider__slide-wrap__single__wrapper">
-                                        <div class="facilitySlider__slide-wrap__single__wrapper__bg">
+                                        <div class="facilitySlider__slide-wrap__single__wrapper__bg" style="background: #DFE3E6;">
                                              <img src="admin/uploads/products/innovative-automative-hardener-lacquer/Innovative-Automotive-Lacquer-&-Hardener-1L-500ml.jpeg"
                                                   alt="Innovative Automotive Lacquer & Hardener" loading="lazy">
                                         </div>
@@ -1110,9 +1110,9 @@ Explore Our Colors</p>
 
                                 <!-- product 9: Innovative Thinner 25L-->
                                 <div class="facilitySlider__slide-wrap__single">
-                                    <a href="products/innovative-thinner-25l.php" target="_blank"></a>
+                                    <a href="products/innovative-thinner-25l.php"></a>
                                     <div class="facilitySlider__slide-wrap__single__wrapper">
-                                        <div class="facilitySlider__slide-wrap__single__wrapper__bg">
+                                        <div class="facilitySlider__slide-wrap__single__wrapper__bg" style="background: white;">
                                              <img src="admin/uploads/products/innovative-thinner/innovative-thinner-25l.png"
                                                   alt="Innovative Thinner 25L" loading="lazy">
                                         </div>
@@ -1134,9 +1134,9 @@ Explore Our Colors</p>
 
                                 <!-- product 10: Innovative Thinner 5L-->
                                 <div class="facilitySlider__slide-wrap__single">
-                                    <a href="products/innovative-thinner-5l.php" target="_blank"></a>
+                                    <a href="products/innovative-thinner-5l.php"></a>
                                     <div class="facilitySlider__slide-wrap__single__wrapper">
-                                        <div class="facilitySlider__slide-wrap__single__wrapper__bg">
+                                        <div class="facilitySlider__slide-wrap__single__wrapper__bg" style="background: white;">
                                              <img src="admin/uploads/products/innovative-thinner/innovative-thinner-5l.jpeg"
                                                   alt="Innovative Thinner 5L" loading="lazy">
                                         </div>

@@ -74,7 +74,7 @@
                 <!-- Product Image Column -->
                 <div class="col-md-6 col-sm-6 chooseColor__right" style="text-align: center; margin-bottom: 30px;">
                     <div
-                        style="background: #FAFAFA; border: 1px solid #EFEFEF; border-radius: 8px; padding: 40px; box-shadow: 0 10px 30px rgba(60, 74, 85, 0.08); display: inline-block; max-width: 100%;">
+                        style="background: #fff; border: 1px solid #EFEFEF; border-radius: 8px; padding: 40px; box-shadow: 0 10px 30px rgba(60, 74, 85, 0.08); display: inline-block; max-width: 100%;">
                         <img src="../admin/uploads/products/innovative-thinner/innovative-thinner-5l.jpeg"
                             alt="INNOVATIVE THINNER — 5 Litre"
                             style="max-height: 440px; width: auto; max-width: 100%; object-fit: contain; display: block; margin: 0 auto;">

@@ -24,6 +24,7 @@
         .stain-slider-wrapper {
             position: relative;
             background: #FAFAFA;
+            background: white;
             border: 1px solid #EFEFEF;
             border-radius: 8px;
             padding: 40px 20px;
@@ -200,7 +201,7 @@
                             <!-- Image 1 (4.5L) -->
                             <div class="stain-slide-item">
                                 <img src="../admin/uploads/products/innovative-stain/Innovative-Wood-Stain-4.5L.jpeg"
-                                    alt="Innovative Wood Stain 4.5L">
+                                    alt="Innovative Wood Stain 4.5L" style="background-color: white;">
                                 <p style="font-size: 13px; color: #888; margin-top: 10px; margin-bottom: 0;">Pack Size:
                                     4.5 Litre</p>
                             </div>
